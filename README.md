@@ -2,6 +2,24 @@
 
 recording-sorter is a personal Python script for renaming recordings. 🔢
 
+## Objectives
+
+a script to rename recordings
+
+renames files with no prefix+number i.e.
+
+```
+m1-good-voice.mp3
+m-bad-voice.mp3
+```
+
+to ```$PREFIX + $LEN_OF_PREFIX_IN_FOLDER+1 + DESCRIPTOR```
+
+```
+m1-good-voice.mp3
+m2-bad-voice.mp3
+```
+
 ## Installation
 
 Install Python if you dont already have it
